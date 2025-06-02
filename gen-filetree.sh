@@ -1,8 +1,8 @@
 #!/bin/bash
-
-set -u # 
+# catch unset Tutor Folder
+set -u 
 : "$TUTOR_FOLDER"
-echo 'ok'
+
 REPO_PLUGINS='git@github.com:WeUp-Tutor/weup-plugins.git'
 REPO_SCRIPTS='git@github.com:WeUp-Tutor/tutor-scripts.git'
 REPO_DEFAULT_THEME='git@github.com:WeUp-Tutor/weup-tutor-indigo-release.git'
